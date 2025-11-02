@@ -2,7 +2,7 @@ Code.require_file("Util.ex", __DIR__)
 
 defmodule NodoCliente do
   @nombre_servicio_local :servicio_respuesta
-  @nodo_remoto :nodoservidor@servidor
+  @nodo_remoto :nodoservidor@localhost
   @servicio_remoto {:servicio_trabajos_de_grado, @nodo_remoto}
 
   def main do
